@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "eSya.ManageServices.IF/1.0.0": {
+        "dependencies": {
+          "eSya.ManageServices.DO": "1.0.0"
+        },
+        "runtime": {
+          "eSya.ManageServices.IF.dll": {}
+        }
+      },
+      "eSya.ManageServices.DO/1.0.0": {
+        "runtime": {
+          "eSya.ManageServices.DO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eSya.ManageServices.IF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eSya.ManageServices.DO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "F6xWhVai2zu+/vh5Kut721GDBXJDdsJB9+2wIQJ6G/s=",
+  "Source": "eSya.ManageServices.WebAPI",
+  "BasePath": "_content/eSya.ManageServices.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "eSya.ManageServices.WebAPI\\wwwroot",
+      "Source": "eSya.ManageServices.WebAPI",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.ManageServices.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\eSyaProjects2022\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\wwwroot\\Resources\\ar-EG.json",
+      "SourceId": "eSya.ManageServices.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.ManageServices.WebAPI",
+      "RelativePath": "Resources/ar-EG.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\ar-EG.json"
+    },
+    {
+      "Identity": "D:\\Projects\\eSyaProjects2022\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\wwwroot\\Resources\\en-US.json",
+      "SourceId": "eSya.ManageServices.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\eSya.ManageServices.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.ManageServices.WebAPI",
+      "RelativePath": "Resources/en-US.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\en-US.json"
+    }
+  ]
+}

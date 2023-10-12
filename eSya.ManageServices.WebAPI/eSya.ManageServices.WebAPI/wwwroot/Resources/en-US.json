@@ -1,0 +1,20 @@
+{
+  "W0141": "Time slot for selected date is already Exist",
+  "W0142": "Already Exist",
+  "W0143": "Doctor day Schedule doesn't Exist to update",
+  "W0144": "Not Exist",
+  "W0145": "From Time can't be more than or equal to",
+  "W0146": "To Time",
+  "W0147": "Doctor",
+  "W0148": "is not avalabe",
+  "W0149": "Time slot for Date",
+  "W0150": "is already exists for Doctor",
+  "W0151": "Service Already Exist",
+  "W0152": "Service Description Already Exist",
+  "W0153": "Service Short Description Already Exist",
+  "W0154": "Internal Service Code Already Exist",
+  "S0001": "Saved Sucessfully",
+  "S0002": "Updated Sucessfully",
+  "S0003": "Activated Successfully",
+  "S0004": "De Activated Successfully"
+}
