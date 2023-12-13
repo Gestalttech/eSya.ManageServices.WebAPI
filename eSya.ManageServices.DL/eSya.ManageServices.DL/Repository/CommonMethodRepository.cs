@@ -34,5 +34,28 @@ namespace eSya.ManageServices.DL.Repository
                 throw ex;
             }
         }
+        public async Task<List<DO_ApplicationCode>> GetApplicationCodesByCodeType(int codetype)
+        {
+            try
+            {
+                using (var db = new eSyaEnterprise())
+                {
+                    var bk = db.GtEcapcds
+                        .Where(w =>w.CodeType==codetype && w.ActiveStatus)
+                        .Select(r => new DO_ApplicationCode
+                        {
+                            ApplicationCode = r.ApplicationCode,
+                            CodeDesc = r.CodeDesc 
+                        }).ToListAsync();
+
+                    return await bk;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        
     }
 }

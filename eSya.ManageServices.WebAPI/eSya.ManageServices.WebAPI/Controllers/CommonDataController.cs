@@ -21,5 +21,12 @@ namespace eSya.ManageServices.WebAPI.Controllers
             var ac = await _commonMethodRepository.GetBusinessKey();
             return Ok(ac);
         }
+        [HttpGet]
+        public async Task<IActionResult> GetApplicationCodesByCodeType(int codetype)
+        {
+            var ac = await _commonMethodRepository.GetApplicationCodesByCodeType(codetype);
+            return Ok(ac);
+        }
+        
     }
 }
